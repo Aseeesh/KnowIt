@@ -1,0 +1,28 @@
+@import "utility";
+@import "colors";
+@import url(styles.scss);
+html,
+body {
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-dialog-container {
+  overflow: initial !important;
+  padding: 0 !important;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+}

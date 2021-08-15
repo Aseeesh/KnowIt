@@ -1,0 +1,127 @@
+
+<div class="container">
+  <h2>Events</h2>
+<span class="badge">
+    <button class="nav-link text-dark" [routerLink]="['/events/edit']">add New Event</button>
+</span>
+<mat-card *ngIf="_EventList">
+    <!-- <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="dataTables_length" id="datatable_length">
+          <label>
+            Show
+            <select
+              name="datatable_length"
+              aria-controls="datatable"
+              class="form-control form-control-sm"
+              (change)="entriesChange($event)"
+            >
+              <option value="10" [selected]="entries == 10">10</option>
+              <option value="25" [selected]="entries == 25">25</option>
+              <option value="50" [selected]="entries == 50">50</option>
+              <option value="-1" [selected]="entries == -1">All</option>
+            </select>
+            entries
+          </label>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div id="datatable_filter" class="dataTables_filter">
+          <label>
+            <input
+              type="search"
+              class="form-control form-control-sm"
+              placeholder="Search records"
+              aria-controls="datatable"
+              (keyup)="filterTable($event)"
+            />
+          </label>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <ngx-datatable #table
+    class="bootstrap"
+        [rows]="_EventList | async"
+        [loadingIndicator]="loadingIndicator"
+        [columns]="columns"
+        [columnMode]="ColumnMode.force"
+        [headerHeight]="40"
+        [summaryRow]="true"
+        [summaryPosition]="'bottom'"
+        [footerHeight]="40"
+        [limit]="10"
+        rowHeight="auto"
+        [reorderable]="reorderable"
+      >
+      <ngx-datatable-column name="Option" prop="option" [draggable]="false" [resizeable]="false "
+      [width]="250">
+     <ng-template ngx-datatable-cell-template let-value="value">
+         <span>
+             <button class="optionButton" type="button" data-toggle="modal" data- 
+     target="#addOption">Reserve Product</button>
+          </span>
+     </ng-template>
+ </ngx-datatable-column>
+      </ngx-datatable> -->
+
+      <!-- <ngx-datatable
+      class="bootstrap selection-cell"
+      [columnMode]="'force'"
+      [headerHeight]="50"
+      [footerHeight]="50"
+      [rowHeight]="'auto'"
+      [limit]="entries != -1 ? entries : undefined"
+      [rows]="_EventList| async"
+      (activate)="onActivate($event)"
+    >
+    <ngx-datatable-column name="id"></ngx-datatable-column>
+    <ngx-datatable-column name="title"></ngx-datatable-column>
+    <ngx-datatable-column name="description"></ngx-datatable-column> 
+      <ngx-datatable-column name="name"></ngx-datatable-column> 
+      <ngx-datatable-column name="eventDate"></ngx-datatable-column> 
+      <ngx-datatable-column name="Option" prop="option" [draggable]="false" [resizeable]="false" 
+     [width]="250">
+    <ng-template ngx-datatable-cell-template let-value="value">
+        <span>
+            <button  type="button" (onclick)="editData($event)"><i class="fa fa-edit"></i></button>
+         </span>
+    </ng-template>
+</ngx-datatable-column>
+    </ngx-datatable> -->
+     
+  
+    <table class="table table-striped" style="text-align: left">
+      <thead>
+      <tr>
+        <th></th>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>event Date</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of _EventList | async">
+        <td>
+          <div class="btn-group">
+             
+            <button (click)="editData(item)" class="btn btn-info btn-sm">
+              <i class="fa fa-pencil-square-o"></i>
+            </button>
+            <!-- <button (click)="delete(item.id)"  routerLink="/events/edit/{{item.id}}"class="btn btn-danger btn-sm">
+              <i class="fa fa-times"></i>
+            </button> -->
+          </div>
+        </td> 
+        <td>{{item.id}}</td> 
+        <td>{{item.name}}</td> 
+        <td>{{item.title}}</td> 
+        <td>{{item.description}}</td> 
+        <td>{{item.eventDate}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </mat-card>
+  </div>

@@ -1,0 +1,16 @@
+$color-primary: #673ab7;
+$color-accent: #ffd740;
+$color-warn: #f44336;
+
+$colors: (
+  primary: $color-primary,
+  accent: $color-accent,
+  warn: $color-warn,
+);
+
+$status-colors: (
+  created: $color-primary,
+  in-progress: $color-accent,
+  done: #3dc295,
+  canceled: $color-warn,
+);

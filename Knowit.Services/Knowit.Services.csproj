@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup> 
+			<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+			<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.9" />
+			<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.12.1" />
+			<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.1" />
+		</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Knowit.Domain\Knowit.Domain.csproj" />
+	  <ProjectReference Include="..\Knowit.Infrastructure\Knowit.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>

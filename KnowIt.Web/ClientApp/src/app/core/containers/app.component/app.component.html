@@ -1,0 +1,25 @@
+<app-layout>
+    <app-sidenav [open]="showSidenav$ | async" (closeMenu)="closeSidenav()">
+      <app-nav-item
+        (navigate)="closeSidenav()"
+        *ngIf="loggedIn$ | async"
+        routerLink="/"
+        icon="book"
+        hint="View your event collection"
+      >Event Overview
+      </app-nav-item>
+     
+      <app-nav-item
+        (navigate)="closeSidenav()"
+        *ngIf="(loggedIn$ | async) === false"
+      >
+        Sign In
+      </app-nav-item>
+      <app-nav-item (navigate)="logout()" *ngIf="loggedIn$ | async">
+        Sign Out
+      </app-nav-item>
+    </app-sidenav>
+    <app-toolbar (openMenu)="openSidenav()"> Event Overview </app-toolbar>
+
+    <router-outlet></router-outlet>
+  </app-layout>
