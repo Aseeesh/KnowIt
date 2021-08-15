@@ -1,0 +1,12 @@
+F:\Architecture\Final\KnowIt\Knowit.Domain\bin\Debug\net5.0\Knowit.Domain.deps.json
+F:\Architecture\Final\KnowIt\Knowit.Domain\bin\Debug\net5.0\Knowit.Domain.dll
+F:\Architecture\Final\KnowIt\Knowit.Domain\bin\Debug\net5.0\ref\Knowit.Domain.dll
+F:\Architecture\Final\KnowIt\Knowit.Domain\bin\Debug\net5.0\Knowit.Domain.pdb
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.AssemblyInfoInputs.cache
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.AssemblyInfo.cs
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.csproj.CoreCompileInputs.cache
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.dll
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\ref\Knowit.Domain.dll
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.pdb
+F:\Architecture\Final\KnowIt\Knowit.Domain\obj\Debug\net5.0\Knowit.Domain.csproj.AssemblyReference.cache

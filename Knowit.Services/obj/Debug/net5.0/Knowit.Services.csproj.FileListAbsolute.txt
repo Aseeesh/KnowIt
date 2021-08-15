@@ -1,0 +1,17 @@
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Services.deps.json
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Services.dll
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\ref\Knowit.Services.dll
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Services.pdb
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Domain.dll
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Infrastructure.dll
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Domain.pdb
+F:\Architecture\Final\KnowIt\Knowit.Services\bin\Debug\net5.0\Knowit.Infrastructure.pdb
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.csproj.AssemblyReference.cache
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.AssemblyInfoInputs.cache
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.AssemblyInfo.cs
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.csproj.CoreCompileInputs.cache
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.csproj.CopyComplete
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.dll
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\ref\Knowit.Services.dll
+F:\Architecture\Final\KnowIt\Knowit.Services\obj\Debug\net5.0\Knowit.Services.pdb
